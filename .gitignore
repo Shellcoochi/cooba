@@ -1,0 +1,30 @@
+# 忽略所有 .log 文件
+*.log
+
+# 忽略所有构建输出目录
+/dist/
+/build/
+/out/
+
+# 忽略所有 Node.js 模块和依赖
+node_modules/
+
+# 忽略本地开发工具配置文件
+.vscode/
+.idea/
+
+# 忽略敏感信息文件
+config.js
+.env
+.env.local
+
+# 忽略个人设置文件
+settings.json
+
+# 忽略编辑器临时文件
+.swp
+.vscode/
+.DS_Store
+
+# 忽略自动生成的文件
+GENERATED/
